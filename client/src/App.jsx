@@ -11,7 +11,7 @@ import PlacesPage from './pages/PlacesPage';
 import PlacesFormPage from './pages/PlacesFormPage';
 import PlacePage from './pages/PlacePage';
 
-axios.defaults.baseURL = 'http://localhost:4000';
+axios.defaults.baseURL = 'https://airbnb-clone-su9o.onrender.com';
 axios.defaults.withCredentials = true;
 
 function App() {
