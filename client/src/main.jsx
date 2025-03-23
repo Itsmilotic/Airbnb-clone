@@ -5,7 +5,7 @@ import './index.css';
 import App from './App.jsx';
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
+  <StrictMode basename="/Airbnb-clone/">
     <BrowserRouter basename="/Airbnb-clone/">
       <App />
     </BrowserRouter>
