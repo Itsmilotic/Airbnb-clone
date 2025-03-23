@@ -20,7 +20,7 @@ app.use('/uploads', express.static(__dirname+'/uploads')); //to show the image n
 // CORS setup
 app.use(cors({
     credentials: true,
-    origin: 'http://localhost:5173'
+    origin: ["http://localhost:5173", "https://itsmilotic.github.io"],
 }));
 
 app.get('/test', (req,res) => {
